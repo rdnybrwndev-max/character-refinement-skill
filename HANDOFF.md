@@ -16,3 +16,9 @@ _Updated: Oct 28, 2026_
 2. Add example inputs/outputs: a sample audit table and a filled design brief for the cat-samurai character.
 3. Add deliverable templates (turnaround guide-line sheet, head-unit proportion grid, marking-map layout) and a Blender shader/rig notes appendix.
 4. Expand README with usage and install instructions.
+
+<!-- claude-project:start (managed by claude-config/bin/sync-project-context.sh) -->
+## Claude project
+- **Design Studio**: project handoff at OPOSEO/claude-config claude-projects/design-studio/HANDOFF.md
+- Every run ends by updating this repo's HANDOFF.md and the project HANDOFF.md above (CLAUDE.md too if rules changed).
+<!-- claude-project:end -->
