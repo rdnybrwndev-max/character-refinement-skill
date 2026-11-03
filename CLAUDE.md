@@ -19,9 +19,7 @@ A single agent skill (`skill.md`, skill name `character-refinement-3d`) that aud
 No build or tests. Typical: `git pull`, edit `skill.md`, `git commit`, `git push origin main`.
 To use in Claude Code, copy/symlink into a skills dir, e.g. `~/.claude/skills/character-refinement-3d/SKILL.md`.
 
-<!-- claude-project:start (managed by claude-config/bin/sync-project-context.sh) -->
-## Claude project
-- **Design Studio** (claude.ai/code): Design and refine visuals with Open Design on the Mac mini; maintain the design skills library.
-  Full instructions: OPOSEO/claude-config claude-projects/design-studio/INSTRUCTIONS.md
-- Every run ends by updating this repo's HANDOFF.md and the project HANDOFF.md above (CLAUDE.md too if rules changed).
-<!-- claude-project:end -->
+<!-- BEGIN claude-project:design-studio (generated from claude-config/claude-projects/design-studio/INSTRUCTIONS.md; edit there, not here) -->
+## Claude project rules: Design Studio
+The canon rules for this repo are in AGENTS.md, section "Claude project rules: Design Studio". Read it first.
+<!-- END claude-project:design-studio -->
