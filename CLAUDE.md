@@ -19,7 +19,7 @@ A single agent skill (`skill.md`, skill name `character-refinement-3d`) that aud
 No build or tests. Typical: `git pull`, edit `skill.md`, `git commit`, `git push origin main`.
 To use in Claude Code, copy/symlink into a skills dir, e.g. `~/.claude/skills/character-refinement-3d/SKILL.md`.
 
-<!-- BEGIN claude-project:design-studio (generated from claude-config/claude-projects/design-studio/INSTRUCTIONS.md; edit there, not here) -->
+<!-- BEGIN claude-project:design-studio (generated from agent-hub/claude-projects/design-studio/INSTRUCTIONS.md; edit there, not here) -->
 ## Claude project rules: Design Studio
-The canon rules for this repo are in AGENTS.md, section "Claude project rules: Design Studio". Read it first.
+Rules: this repo's AGENTS.md.
 <!-- END claude-project:design-studio -->
