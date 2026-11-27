@@ -1,7 +1,7 @@
 <!-- BEGIN claude-project:design-studio (generated from agent-hub/claude-projects/design-studio/INSTRUCTIONS.md; edit there, not here) -->
 ## Claude project rules: Design Studio
 
-> MANDATORY on every design turn: read and follow DESIGN-WORKFLOW.md in github.com/rdnybrwndev-max/design-skills (`~/projects/design-skills/DESIGN-WORKFLOW.md`).
+> Design work: load the `brand-design-work` skill once per thread, on the first turn that creates or edits a design file, as AGENTS.md "Design" says.
 
 # Design Studio
 
@@ -10,8 +10,8 @@ Design and refine visuals with Open Design on the Mac Studio; maintain the desig
 
 ## Where the work happens
 - Repositories: rdnybrwndev-max/design-skills (most tasks), rdnybrwndev-max/character-refinement-skill.
-- Branch from the default branch. Name branches <area>/<short-task>. Open a PR when the task is done and tests pass; do not merge.
-- Computers: tests, builds and simulator runs go to the Mac mini sandbox first, as agent-hub AGENTS.md "Where work runs" says. Signing, TestFlight uploads and release builds run on the Mac mini too, with Xcode Cloud, then GitHub Actions, as backup. Use Codex Cloud when the mini can't do the job, and GitHub Actions for pull request checks. Keep the Mac Studio for Rodney's live work, Open Design and local-only tools. Never use the Grok Bot box.
+- Branch from the default branch. Name branches <area>/<short-task>. Open a pull request when the task is done and its checks pass. Merging follows AGENTS.md "Code changes and merging".
+- Computers: builds, tests and simulator runs happen on the Mac mini, as AGENTS.md "Where work runs" says. No GitHub Actions, Codex Cloud or Xcode Cloud runs.
 
 ## How a thread works
 1. Read CLAUDE.md and HANDOFF.md in every repo you touch before changing anything.
